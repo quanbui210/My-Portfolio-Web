@@ -5,6 +5,7 @@
     color: #ccc;
     line-height: 30px;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .contact-title {
@@ -13,12 +14,11 @@
 }
 
 .contact-detail {
-    margin-left: 50px;
-    width: 50%
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
 }
-.contact-end {
-    font-size: 18px !important;
-}
+
 
 
 
@@ -36,7 +36,19 @@
     }
     .contact-detail {
         width: 100%;
-        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1300px){
+    .contact {
+        margin-top: 120px;
+        color: #ccc;
+        line-height: 20px;
+
+    }   
+
+    .contact-detail {
+        margin-top: 50px;
         margin-bottom: 20px;
     }
 }
