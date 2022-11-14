@@ -1,0 +1,29 @@
+
+
+.contact {
+    text-align: center;
+    margin-top: 180px;
+    color: #ccc;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.footer-icon {
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.footer-icon:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 400px){
+    .contact {
+        text-align: center;
+        margin-top: 120px;
+        color: #ccc;
+        line-height: 20px;
+        margin-bottom: 70px;
+        font-size: 11px;
+    }
+}

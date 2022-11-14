@@ -1,0 +1,44 @@
+.go-top-btn {
+    bottom: 20px;
+    right: 30px;
+    position: fixed;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+}
+.go-top-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out 0s;
+    -webkit-transform: all .2s ease-in-out 0s;
+    
+}
+
+.top-icon {
+    margin-left: -1px;
+    font-size: 15px;
+}
+
+.top-icon:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out 0s;
+    -webkit-transform: all .2s ease-in-out 0s;
+}
+
+@media screen and (max-width: 400px) {
+    .go-top-btn {
+        bottom: 20px;
+        right: 30px;
+        position: fixed;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 8px;
+    }
+    .top-icon {
+        margin-left: -1px;
+        font-size: 13px !important;
+    }
+}

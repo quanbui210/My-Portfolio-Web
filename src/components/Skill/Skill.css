@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+/* html, body{
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+  background: #F8F8F8;
+  color: #2D2E30;
+  font-family: "Open Sans";
+  font-weight:300;
+  letter-spacing: .4px;
+    -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+} */
+
+.container{
+  border-radius:3px;
+  /*width:500px;*/
+  width: 60%;
+  margin:10px auto;
+  text-align:center;
+  margin-top: 280px;
+  padding: 5px;
+  padding-bottom:20px;
+  overflow:hidden;
+}
+.skill-title{
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.skill-description{
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+table{
+  width:100%;
+  background: #5D5F60;
+  color: #F8F8F8;
+}
+thead tr td{
+  font-weight:400;
+  text-align:center;
+}
+thead{
+  background:#2D2E30;
+}
+tr{
+  text-align:left;
+  overflow:hidden;
+}
+td{
+  padding:5px 10px;
+  border-bottom:solid 2px #f0f0f0;
+  width: 100px;
+}
+tbody td:nth-child(2) .percent{
+  text-align:center;
+  margin-left: 60%;
+}
+.bar{
+  width:200px;
+  height:20px;
+  border:solid 5px #3F4244;
+  border-radius:3px;
+  margin: 15px 1px;
+  overflow:hidden;
+  background: #f0f0f0;
+}
+.fill{
+  max-width:100%;
+  height:100%;
+}
+.one .fill{
+  width:0%;
+  background:#308ACA;
+  border-radius:1px;
+  animation: barOne .4s linear;
+  -webkit-animation:barOne .4s linear;
+}
+.two .fill{
+  width:0%;
+  background:#ff744f;
+  border-radius:1px;
+  animation: barOne .4s linear;
+  -webkit-animation:barOne .4s linear;
+}
+@keyframes barOne{
+  0%{width:0%;}
+  100%{}
+}
+@-webkit-keyframes barOne{
+  0%{width:0%;}
+  100%{} 
+}
+.percent, .one{
+  position:relative;
+  float:left;
+}
+.percent{
+  top:19px;
+  margin-left:5px;
+  margin-right:10px;
+}
+.border{
+  border:solid 5px #3F4244;
+  border-radius:3px;
+}
+.last{
+  border:none;
+}
+
+.skill-icon {
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 4px;
+}
+
+@media screen and (max-width: 400px) {
+  .container{
+    border-radius:3px;
+    /*width:500px;*/
+    width: 100%;
+    margin:10px auto;
+    text-align:center;
+    margin-top: 180px;
+    padding: 5px;
+    padding-bottom:20px;
+    overflow:hidden;
+  }
+  .percent{
+    top:19px;
+    margin-left:5px;
+    margin-right:10px;
+    display: none;
+  }
+  .skill-title{
+    color: #ccc;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.skill-description{
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 40px;
+  font-size: 13px;
+  font-weight: 200 !important;
+}
+}

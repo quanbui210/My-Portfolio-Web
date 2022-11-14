@@ -1,0 +1,183 @@
+.project-card { 
+    margin-top: 60px;
+    max-width: 100%;
+    min-width: 60%;
+    width: 700px;
+    max-height: 700px;
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 0 1px 2px rgb(2, 2, 2);
+    background-color: transparent !important;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.project-card-image {
+    width: 100%;
+    max-height: 500px;
+    min-height: 460px; 
+}
+
+.project-card-content {
+    color: rgb(153, 150, 150);
+}
+
+.project-card-text {
+    width: 70%;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 1.4rem;
+    letter-spacing: .0.8rem;
+    color: rgb(153, 150, 150) !important;
+}
+
+.project-card-tech {
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-weight: 800;
+    color: rgb(153, 150, 150) !important;
+}
+
+.project-card-icon {
+    color: #ccc;
+}
+
+.project-card-icon:hover {
+    opacity: 0.8;
+    color: #ccc;
+    cursor: pointer;
+    transform: translateY(-6px);
+    transition: all .2s ease-in-out 0s;
+    -webkit-transform: all .4s ease-in-out 0s;
+}
+
+.project-card-seemore {
+    color: rgb(167, 167, 167);
+    margin-top: 80px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+
+.tag {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    font-weight: bold;
+}
+.tag:hover {
+    opacity: 0.8;
+    color: rgb(245, 245, 245);
+}
+
+
+@media screen and (max-width: 400px){
+    .project-card-image {
+        width: 100%;
+        max-height: 400px;
+        min-height: 330px; 
+
+    }
+    .project-card { 
+        margin-top: 40px;
+        max-width: 80%;
+        min-width: 50%;
+        width: 400px;
+        max-height: 700px;
+        color: rgb(230, 230, 230);
+        border: 1px solid rgb(122, 122, 122);
+        box-shadow: 0 1px 2px rgb(2, 2, 2);
+        background-color: transparent !important;
+    }
+    .project-card-content {
+        color: rgb(153, 150, 150);
+        font-size: 10px;
+
+    }
+    .project-card-text {
+        width: 60%;
+        font-weight: 550;
+        font-size: 12px !important; 
+        line-height: 1.2rem;
+        letter-spacing: .6rem;
+        color: rgb(153, 150, 150) !important;
+    }
+    .project-card-tech {
+        margin-bottom: 1px;
+        font-weight: bold;
+        font-weight: 800;
+        color: rgb(153, 150, 150) !important;
+        font-size: 11px;
+    }
+    .project-card-seemore {
+        color: rgb(167, 167, 167);
+        margin-top: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 6px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .project-card { 
+        margin-top: 40px;
+        max-width: 100%;
+        min-width: 60%;
+        width: 700px;
+        max-height: 700px;
+        color: rgb(230, 230, 230);
+        border: 1px solid rgb(122, 122, 122);
+        box-shadow: 0 1px 2px rgb(2, 2, 2);
+        background-color: transparent !important;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+/* .hover-2 {
+  --c: #1095c1; 
+  --b: .1em;    
+  --d: 20px;   
+  
+  --_s: calc(var(--d) + var(--b));
+  
+  color: var(--c);
+  border: solid #0000;
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  background:
+    conic-gradient(at left var(--d)  bottom var(--d),
+      #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+    conic-gradient(at left var(--_s) bottom var(--_s),
+      #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+  transform: translate(calc(var(--d)/-1),var(--d));
+  clip-path: 
+    polygon(
+     var(--d) 0%, 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)),
+     100% calc(100% - var(--d)),
+     var(--d) calc(100% - var(--d))
+    );
+  transition: 0.5s;
+}
+.hover-2:hover {
+  transform: translate(0,0);
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
+} */
