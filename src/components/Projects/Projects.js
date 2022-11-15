@@ -9,9 +9,32 @@ import './Projects.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
+
 export default function Projects() {
   return (
-    <div className="card-container">    
+    <div className="card-container"> 
+     <Card className="project-card" sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://user-images.githubusercontent.com/89993167/201920859-4ad8cd06-213f-4612-ad98-b89ae9019f74.png"
+        alt="green iguana"
+        className='project-card-image'
+      />
+      <CardContent className='project-card-content'>
+        <Typography gutterBottom variant="h5" component="div">
+         Movie Data App
+        </Typography>
+        <Typography variant="body2" color="text.secondary" className="project-card-text">
+        <i>A Website that allows user to add movie data to server(Firebase Realtime database)</i>
+         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | Firebase</p>
+        </Typography>
+      </CardContent>
+      <CardActions className='project-card-content'>
+        <a href='https://github.com/quanbui210/Countries-list' className='project-card-icon'><GitHubIcon/></a> 
+        <a className='project-card-icon' href='https://countries-list-five.vercel.app/'><OpenInNewIcon/></a>
+      </CardActions>
+    </Card>   
     <Card className="project-card" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -80,7 +103,7 @@ export default function Projects() {
         <a className='project-card-icon' href='https://countries-list-five.vercel.app/'><OpenInNewIcon/></a>
       </CardActions>
     </Card>
-    <Card className="project-card" sx={{ maxWidth: 345 }}>
+    {/* <Card className="project-card" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="140"
@@ -101,7 +124,7 @@ export default function Projects() {
         <a href='https://github.com/quanbui210/Form-Validation/tree/master' className='project-card-icon'><GitHubIcon/></a> 
         <a className='project-card-icon' href='https://form-validation-jade-six.vercel.app/'><OpenInNewIcon/></a>
       </CardActions>
-    </Card>
+    </Card> */}
     <h3 className='project-card-seemore'>See more projects <a className='tag' href="https://github.com/quanbui210">here</a></h3>
     </div>
   );

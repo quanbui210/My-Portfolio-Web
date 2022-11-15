@@ -8,6 +8,8 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+
 
 library.add(fas)
 
@@ -41,7 +43,7 @@ function App() {
       <Slider className='app-slide'/>
       <Skill className='app-skill'/>
       <div className='projects-wrapper'>        
-      <h1 className='projects-title'>My Projects</h1>
+      <h1 className='projects-title'>My Projects <IntegrationInstructionsIcon style={{fontSize: '42px', marginTop:'-8px'}}/></h1>
       <Projects/>
       <Footer/>
       {goTop && <GoTopBtn goTop={goTopHandler}/>}
