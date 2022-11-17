@@ -31,8 +31,8 @@ export default function Projects() {
         </Typography>
       </CardContent>
       <CardActions className='project-card-content'>
-        <a href='https://github.com/quanbui210/Countries-list' className='project-card-icon'><GitHubIcon/></a> 
-        <a className='project-card-icon' href='https://countries-list-five.vercel.app/'><OpenInNewIcon/></a>
+        <a href='https://github.com/quanbui210/MovieApp' className='project-card-icon'><GitHubIcon/></a> 
+        <a className='project-card-icon' href='quanbuiii.vercel.app '><OpenInNewIcon/></a>
       </CardActions>
     </Card>   
     <Card className="project-card" sx={{ maxWidth: 345 }}>

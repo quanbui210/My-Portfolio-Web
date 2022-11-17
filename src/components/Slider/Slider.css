@@ -61,4 +61,18 @@
     margin-top: 14px;
     line-height: 1.6;
 }
-  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1900px) {
+  .slider-title {
+    font-size: 56px;
+    color: #ccc;
+    letter-spacing: .3px;
+  } 
+  .slider {
+    margin-top: 120px;
+    margin-left: 180px;
+    width: 55%;
+    animation: slider-appear 1s ease-out forwards;
+  } 
+}
