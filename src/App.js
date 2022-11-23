@@ -9,7 +9,7 @@ import React, {useState, useEffect} from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-
+import Certifications from './components/Certifications/Certifications'
 
 library.add(fas)
 
@@ -45,6 +45,7 @@ function App() {
       <div className='projects-wrapper'>        
       <h1 className='projects-title'>My Projects <IntegrationInstructionsIcon style={{fontSize: '42px', marginTop:'-8px'}}/></h1>
       <Projects/>
+      <Certifications/>
       <Footer/>
       {goTop && <GoTopBtn goTop={goTopHandler}/>}
       </div>

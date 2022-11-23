@@ -1,0 +1,104 @@
+.cert-container {
+    margin-bottom: 300px;
+    color: #ccc;
+}
+
+.cert-title {
+    margin-bottom: 60px;
+}
+
+.cert-img {
+    width: 600px;
+    height: 480px;
+    margin-top: 30px;
+}
+
+.cert-name{
+    font-size: 22px;
+    color: #ccc;
+}
+
+.cert-name:hover {
+    color: #ccc;
+    opacity: 0.6;
+}
+
+.badge-icon {
+    position: absolute;
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1600px){
+    .cert-title {
+        margin-bottom: 60px;
+    }
+    .cert-container {
+        margin-bottom: 300px;
+        color: #ccc;
+    }    
+    
+    .cert-img {
+        width: 400px;
+        height: 370px;
+        margin-top: 30px;
+        
+    }
+    .cert-name{
+        font-size: 16.5px;
+        color: #ccc;
+    }
+    .badge-icon {
+        font-size: 10px;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 1630px) {
+    .cert-title {
+        margin-bottom: 60px;
+    }
+    .cert-container {
+        margin-bottom: 300px;
+        color: #ccc;
+    }    
+    
+    .cert-img {
+        width: 550px;
+        height: 430px;
+        margin-top: 30px;
+        
+    }
+    .cert-name{
+        font-size: 20px;
+        color: #ccc;
+    }
+    .badge-icon {
+        font-size: 13px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cert-title {
+        margin-bottom: 60px;
+    }
+    .cert-container {
+        margin-bottom: 200px;
+        color: #ccc;
+    }    
+    
+    .cert-img {
+        width: 200px;
+        height: 160px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .cert-name{
+        font-size: 10px;
+        color: #ccc;
+    }
+    .badge-icon {
+        font-size: 10px;
+        position: absolute;
+        display: none;
+    }
+}
