@@ -85,22 +85,22 @@ export default function Projects() {
       <CardMedia
         component="img"
         height="140"
-        image="https://user-images.githubusercontent.com/89993167/201534757-597a168e-9e8b-45b8-906e-9d13b247138c.png"
+        image="https://user-images.githubusercontent.com/89993167/205606967-12a882f8-3058-412f-9ced-a01b6225276a.png"
         alt="green iguana"
         className='project-card-image'
       />
       <CardContent className='project-card-content'>
         <Typography gutterBottom variant="h5" component="div">
-         Countries List App
+         Rock Paper Scissors
         </Typography>
         <Typography variant="body2" color="text.secondary" className="project-card-text">
-        <i>An app that shows the basic information and current weather data of all countries in the world.</i>
-         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | Axios | Bootstrap</p>
+        <i>Web RPS game, users vs computer(random choice)</i>
+         <br></br> <br></br> <p className="project-card-tech">Vanilla JavaScript| Vanilla CSS | HTML</p>
         </Typography>
       </CardContent>
       <CardActions className='project-card-content'>
-        <a href='https://github.com/quanbui210/Countries-list' className='project-card-icon'><GitHubIcon/></a> 
-        <a className='project-card-icon' href='https://countries-list-five.vercel.app/'><OpenInNewIcon/></a>
+        <a href='https://github.com/quanbui210/Rock-Paper-Scissors/tree/master' className='project-card-icon'><GitHubIcon/></a> 
+        <a className='project-card-icon' href='https://rock-paper-scissors-one-lilac.vercel.app/'><OpenInNewIcon/></a>
       </CardActions>
     </Card>
     {/* <Card className="project-card" sx={{ maxWidth: 345 }}>
