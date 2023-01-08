@@ -13,6 +13,28 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 export default function Projects() {
   return (
     <div className="card-container"> 
+     <Card className="project-card" sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://user-images.githubusercontent.com/89993167/211213001-6c01ad3e-acfb-40a2-81b4-5b30335ec04f.png"
+        alt="green iguana"
+        className='project-card-image'
+      />
+      <CardContent className='project-card-content'>
+        <Typography gutterBottom variant="h5" component="div">
+         Sunrob Robotics Shop
+        </Typography>
+        <Typography variant="body2" color="text.secondary" className="project-card-text">
+        <i>Demo Shopping Website for Sunrob Robotics (Frontend), a robotic company in Lappeenranta (Merchs / Toys)</i>
+         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | | Redux | Redux Toolkit | Material UI</p>
+        </Typography>
+      </CardContent>
+      <CardActions className='project-card-content'>
+        <a href='https://github.com/quanbui210/Sunrob-Robotics' className='project-card-icon'><GitHubIcon/></a> 
+        <a className='project-card-icon' href='https://sunrob-robotics.vercel.app/'><OpenInNewIcon/></a>
+      </CardActions>
+    </Card>   
     
     <Card className="project-card" sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -28,7 +50,7 @@ export default function Projects() {
         </Typography>
         <Typography variant="body2" color="text.secondary" className="project-card-text">
         <i>A web application for food ordering service, features including: add to cart, remove form cart, total price, register form...</i>
-         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | Vanilla CSS</p>
+         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | Firebase</p>
         </Typography>
       </CardContent>
       <CardActions className='project-card-content'>
@@ -36,29 +58,6 @@ export default function Projects() {
         <a className='project-card-icon' href='https://food-order-five.vercel.app/'><OpenInNewIcon/></a>
       </CardActions>
     </Card>
-
-     <Card className="project-card" sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://user-images.githubusercontent.com/89993167/201920859-4ad8cd06-213f-4612-ad98-b89ae9019f74.png"
-        alt="green iguana"
-        className='project-card-image'
-      />
-      <CardContent className='project-card-content'>
-        <Typography gutterBottom variant="h5" component="div">
-         Movie Data App
-        </Typography>
-        <Typography variant="body2" color="text.secondary" className="project-card-text">
-        <i>A Website that allows user to add movie data to server(Firebase Realtime database)</i>
-         <br></br> <br></br> <p className="project-card-tech">React | React Hooks | Firebase</p>
-        </Typography>
-      </CardContent>
-      <CardActions className='project-card-content'>
-        <a href='https://github.com/quanbui210/MovieApp' className='project-card-icon'><GitHubIcon/></a> 
-        <a className='project-card-icon' href='quanbuiii.vercel.app '><OpenInNewIcon/></a>
-      </CardActions>
-    </Card>   
     <Card className="project-card" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"

@@ -18,3 +18,9 @@
         margin-top: 170px;
     }
 }
+
+.app-nav {
+    position: fixed !important;
+    top: 0 !important;
+    background-image: linear-gradient(to left, #414040, #000000) !important;
+}

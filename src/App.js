@@ -10,6 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import Certifications from './components/Certifications/Certifications'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 library.add(fas)
 
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <div className="App">   
-      <NavBar/>
+      <NavBar className="app-nav"/>
       <Slider className='app-slide'/>
       <Skill className='app-skill'/>
       <div className='projects-wrapper'>        

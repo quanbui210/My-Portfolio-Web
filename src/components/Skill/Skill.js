@@ -103,9 +103,9 @@ const Skill = () => {
           <td>Redux
             <i className="skill-icon devicon-redux-original colored"></i>
           </td>
-          <td><span className="percent">45%</span>
-            <div className="bar two">
-              <div className="fill" style={{width:"45%"}}></div>
+          <td><span className="percent">65%</span>
+            <div className="bar one">
+              <div className="fill" style={{width:"65%"}}></div>
             </div>
           </td>
         </tr>
