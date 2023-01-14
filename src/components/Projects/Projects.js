@@ -56,29 +56,6 @@ export default function Projects() {
         <a className='project-card-icon' href='https://countries-quanbui210.vercel.app/'><OpenInNewIcon/></a>
       </CardActions>
     </Card>  
-    
-    <Card className="project-card" sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://user-images.githubusercontent.com/89993167/204028032-35efc18f-37f6-4cab-a483-f5cdb073d5b4.png"
-        alt="Project Img"
-        className='project-card-image'
-      />
-      <CardContent className='project-card-content'>
-        <Typography gutterBottom variant="h5" component="div">
-         Food Order Website
-        </Typography>
-        <Typography variant="body2" color="text.secondary" className="project-card-text">
-        <i>A web application for food ordering service, features including: add to cart, remove form cart, total price, register form...</i>
-         <br></br> <br></br> <p className="project-card-tech">React | Firebase</p>
-        </Typography>
-      </CardContent>
-      <CardActions className='project-card-content'>
-        <a href='https://github.com/quanbui210/food-order' className='project-card-icon'><GitHubIcon/></a> 
-        <a className='project-card-icon' href='https://food-order-five.vercel.app/'><OpenInNewIcon/></a>
-      </CardActions>
-    </Card>
     <Card className="project-card" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
