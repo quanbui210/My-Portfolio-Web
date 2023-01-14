@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects'
 import GoTopBtn from './components/GoTopBtn/GoTopBtn'
 import Footer from './components/Footer/Footer'
 import './App.css';
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
@@ -15,8 +15,12 @@ import { BrowserRouter as Router} from 'react-router-dom'
 library.add(fas)
 
 function App() {
-
   const [goTop, setGoTop] = useState(false)
+  const aboutRef = useRef(null)
+  const skillRef = useRef(null)
+  const projectRef = useRef(null)
+  const certRef = useRef(null)
+
   useEffect(() => {
     const handleScroll = () => {
         if(window.scrollY >= 200) {
@@ -41,12 +45,12 @@ function App() {
   return (
     <div className="App">   
       <NavBar className="app-nav"/>
-      <Slider className='app-slide'/>
-      <Skill className='app-skill'/>
+      <Slider ref={aboutRef} className='app-slide'/>
+      <Skill ref={skillRef} className='app-skill'/>
       <div className='projects-wrapper'>        
       <h1 className='projects-title'>My Projects <IntegrationInstructionsIcon style={{fontSize: '42px', marginTop:'-8px'}}/></h1>
-      <Projects/>
-      <Certifications/>
+      <Projects ref={projectRef}/>
+      <Certifications ref={certRef}/>
       <Footer/>
       {goTop && <GoTopBtn goTop={goTopHandler}/>}
       </div>

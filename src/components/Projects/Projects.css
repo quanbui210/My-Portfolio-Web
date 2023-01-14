@@ -6,7 +6,7 @@
     max-height: 700px;
     color: rgb(230, 230, 230);
     border: 1px solid rgb(122, 122, 122);
-    box-shadow: 0 1px 2px rgb(2, 2, 2);
+    box-shadow: 0 0 1px 1px rgb(92, 92, 92) !important;
     background-color: transparent !important;
 }
 
@@ -19,8 +19,8 @@
 
 .project-card-image {
     width: 100%;
-    max-height: 500px;
-    min-height: 460px; 
+    min-height: 400px; 
+    object-fit: contain;
 }
 
 .project-card-content {
