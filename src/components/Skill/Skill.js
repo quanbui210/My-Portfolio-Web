@@ -25,9 +25,9 @@ const Skill = () => {
           <td>C#
             <i className="skill-icon devicon-csharp-line-wordmark colored"></i>
           </td>
-          <td><span className="percent">30%</span>
+          <td><span className="percent">20%</span>
             <div className="bar two">
-              <div className="fill" style={{width:"30%"}}></div>
+              <div className="fill" style={{width:"20%"}}></div>
             </div>
           </td>
         </tr>
@@ -75,15 +75,15 @@ const Skill = () => {
           <td>MongoDB 
             <i className="skill-icon devicon-mongodb-plain-wordmark"></i>
           </td>
-          <td><span className="percent">30%</span>
+          <td><span className="percent">20%</span>
             <div className="bar two">
-              <div className="fill" style={{width:"30%"}}></div>
+              <div className="fill" style={{width:"20%"}}></div>
             </div>
           </td>
         </tr>
         {/* <tr>
           <td>MySQL</td>
-          <td><span className="percent">30%</span>
+          <td><span className="percent">20%</span>
             <div className="bar two">
               <div className="fill" style={{width:"30%"}}></div>
             </div>
@@ -93,9 +93,9 @@ const Skill = () => {
           <td>Node.js 
             <i className="skill-icon devicon-nodejs-plain-wordmark colored"></i>
           </td>
-          <td><span className="percent">45%</span>
+          <td><span className="percent">15%</span>
             <div className="bar two">
-              <div className="fill" style={{width:"45%"}}></div>
+              <div className="fill" style={{width:"15%"}}></div>
             </div>
           </td>
         </tr>
@@ -103,9 +103,9 @@ const Skill = () => {
           <td>Redux
             <i className="skill-icon devicon-redux-original colored"></i>
           </td>
-          <td><span className="percent">65%</span>
+          <td><span className="percent">60%</span>
             <div className="bar one">
-              <div className="fill" style={{width:"65%"}}></div>
+              <div className="fill" style={{width:"60%"}}></div>
             </div>
           </td>
         </tr>
