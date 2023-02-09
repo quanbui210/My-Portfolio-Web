@@ -22,12 +22,12 @@ const Skill = () => {
           </td>
         </tr>
               <tr>
-          <td>C#
-            <i className="skill-icon devicon-csharp-line-wordmark colored"></i>
+          <td>Java
+            <i className="skill-icon devicon-java-plain colored"></i>
           </td>
-          <td><span className="percent">20%</span>
+          <td><span className="percent">30%</span>
             <div className="bar two">
-              <div className="fill" style={{width:"20%"}}></div>
+              <div className="fill" style={{width:"30%"}}></div>
             </div>
           </td>
         </tr>
