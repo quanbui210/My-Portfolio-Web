@@ -25,8 +25,15 @@ export default function Projects() {
          Sunrob Robotics Shop
         </Typography>
         <Typography variant="body2" color="text.secondary" className="project-card-text">
-        <i>Demo Shopping Website for Sunrob Robotics (Frontend), a robotic company in Lappeenranta (Merchs / Toys)</i>
-         <br></br> <br></br> <p className="project-card-tech">React | | Redux | Redux Toolkit | Material UI</p>
+        <i>Demo Shopping Website for Sunrob Robotics (Frontend), a robotic company in Lappeenranta (Merchs / Toys). </i><br/>
+        <h7>Features included: </h7>
+        <ul>
+          <li><i>Add/Remove item to/from cart</i></li>
+          <li><i>Submit an order</i></li>
+          <li><i>View product details (availability, price, delivery details, product info...)</i></li>
+          <li><i>View Order History</i></li>
+        </ul>
+        <br></br> <p className="project-card-tech">React | React-router | Redux Toolkit | MaterialUI & Bootstrap | Firebase Realtime Database</p>
         </Typography>
       </CardContent>
       <CardActions className='project-card-content'>
